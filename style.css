@@ -1,0 +1,632 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/***************background*****************/
+#banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/background.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+/***************indicates where on the website**********************/
+.active{
+	background-color: white;
+	color: black;
+}
+
+
+/********************how the navbar looks*****************/
+.navbar{
+	width: 100%;
+	height: 60px;
+	padding: 20px 0px;
+}
+
+.logo{
+	margin-left: 100px;
+	float: left;
+	display: inline-block;
+}
+
+
+/*********************navbar**********************/
+nav{
+	margin-right: 100px;
+	margin-top: 20px;
+	float: right;
+}
+
+
+
+/***********************displaying the list in the navbar(home, featured, about)*********************/
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 10px;
+	position: relative;
+}
+
+
+
+/***************appearance of the link*********************/
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 50px;
+
+}
+
+/**********************when you hover over the links*******************/
+nav ul li a:hover{
+	background-color: lightgray;
+	color: black;
+	transition: 0.5s;
+}
+
+/******************dropdown menu on featured************************/
+.dropdown {
+	position: absolute;
+	background-color: white;
+	display: none;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding: 5px 10px;
+	line-height: 50px;
+	text-align: center;
+	z-index: 1;
+	transition: 0.5s;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+/***********************when you hover over feature dropdown menu will show*****************/
+ul li:hover .dropdown{
+	display: block;
+	transition: 1s;
+}
+
+.dropdown li a:hover {
+	background-color: lightgray;
+	transition: 0.5s;
+
+}
+
+.dropdown li a{
+	color: black;
+}
+
+/********************burger icon for responsive website*******************/
+#menu-icon{
+	right: 30px;
+}
+
+#menu-icon img{
+	width: 5%;
+	margin-top: -20px;
+	float: right;
+	cursor: pointer;
+	display: none;
+
+}
+
+/**********************back to top button********************/
+.gotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background-color: skyblue;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 22px;
+	border-radius: 10px;
+	z-index: 1;
+}
+
+
+
+
+/*********************welcome message on homepage*******************/
+.banner-text{
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+}
+
+.banner-text h1{
+	font-size: 100px;
+	font-family: 'Kaushan Script', cursive;
+	margin-top: 20px;
+}
+
+.banner-text p{
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+/*********************get started button on homepage**********************/
+.banner-button{
+	margin: 40px;
+}
+
+.banner-button a{
+	width: 150px;
+	text-decoration: none;
+	color: white;
+	padding: 12px;
+	border: .5px solid white;
+	border-radius: 20px;
+
+}
+
+.banner-button a:hover{
+	background-color: white;
+	transition: .5s;
+	color:black;
+}
+
+
+
+
+/*********************featured part***********************/
+#featured{
+	width: 100%;
+	padding: 100px 0px;
+	background: #efefef;
+}
+
+.title-text{
+	text-align: center;
+}
+
+.title-text h1{
+	margin-top: -20px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+/**********3 images in featured************/
+.featured-box{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 50px;
+	background-color: lightgray;
+	padding: 70px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.6);
+}
+
+
+
+.featured-info{
+	flex-basis: 28%;
+	text-align: center;
+	border-radius: 7px;
+	position: relative;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.featured-info img{
+	width: 100%;
+	height: 100%;
+	border-radius: 7px;
+}
+
+/***********when hovered, displays the info****************/
+.overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	border-radius: 7px;
+	cursor: pointer;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), lightpink);
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.featured-info:hover .overlay{
+	opacity: 1;
+}
+
+.featured-desc{
+	width: 80%;
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	opacity: 0;
+	transform: translateX(-50%);
+	transition: 0.5s;
+}
+
+a .featured-desc{
+	color: white;
+} 
+
+hr{
+	background: white;
+	height: 2px;
+	border: 0;
+	margin: 15px auto;
+	width: 60%;
+}
+
+.featured-desc p{
+	font-size: 16px;
+}
+
+.featured-info:hover .featured-desc{
+	bottom: 40%;
+	opacity: 1;
+}
+
+
+
+
+/***************footer of the website************************/
+#footer{
+	background-color: darkgray;
+	width: 100%;
+	height: 100%;
+}
+
+.footer-box{
+	padding: 100px;
+}
+
+.footer-info{
+	margin-left: 100px;
+	display: flex;
+	
+}
+
+.footer-info h2{
+	margin-right: 150px;
+	margin-left: 50px;
+}
+
+.footer-info ul{
+	margin-top: 20px;
+}
+
+.footer-info li{
+	margin-top: 20px;
+	margin-left: -240px;
+	list-style: none;
+}
+
+.footer-info i{
+	margin-left: 20px;
+}
+
+.footer-info a{
+	text-decoration: none;
+	color: black;
+}
+
+.footer-info a:hover{
+	color: white;
+}
+
+
+.footer-logo{
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-right: -50px;
+	float: left;
+	display: block;
+}
+
+
+
+
+
+
+/******************MATERIALS PAGE********************8/
+
+
+/*************main title page***********************/
+.materials-title{
+	margin-top: 40px;
+	text-align: center;
+	background: linear-gradient(lightskyblue, pink);
+	padding: 20px 0px;
+}
+
+.materials-title h1{
+	font-size: 80px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.materials-title p{
+	font-size: 20px;
+	
+}
+
+.materials-box{
+	width: 40%;
+	display: flex;
+	margin: 0% 30%;
+	margin-top: 50px;
+	padding-bottom: 100px;
+
+}
+
+
+.materials-info{
+	text-align: center;
+	border-radius: 7px;
+	margin-bottom: 100px;
+	position: relative;
+	margin: 0px 40px;
+	margin-top: 50px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.materials-info:hover .overlay{
+	opacity: 1;
+}
+
+
+.materials-info img{
+	width: 100%;
+	height: 100%;
+	border-radius: 7px;
+}
+
+
+
+.materials-desc{
+	width: 60%;
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	opacity: 0;
+	transform: translateX(-50%);
+	transition: 0.5s;
+	font-size: 20px;
+}
+
+.materials-info:hover .materials-desc{
+	bottom: 40%;
+	opacity: 1;
+}
+
+.trad{
+	margin-bottom: -20%;
+}
+
+
+/*******************where info about the materials are*********************/
+
+#main-materials{
+	width: 100%;
+	height: 100%;
+	background: #efefef;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+
+#main-materials h1{
+	font-size: 80px;
+	margin: 0px 0px 0px 150px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+#main-materials p{
+	margin-left: 150px;
+	margin-right: 50px;
+}
+
+#main-materials h2{
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+
+#main-materials h2 p{
+	
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 23%;
+	margin-right: 50px;
+	font-size: 20px;
+
+}
+
+#main-materials img{
+	width: 20%;
+	height: 20%;
+	display: block;
+	margin: 50px 100px 100px 0px;
+	border-radius: 20px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.materials-desc{
+	color: white;
+}
+
+#main-materials hr{
+	background: black;
+}
+
+
+
+
+
+
+
+
+
+/*****************ARTWORK PAGE*************8*/
+
+/*********main title************/
+
+#artwork{
+	background-color: dimgray;
+	
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	
+}
+
+.artwork-title{
+	margin-top: 40px;
+	text-align: center;
+	background: linear-gradient(lightskyblue, pink);
+	padding: 20px 0px;
+}
+
+.artwork-title h1{
+	font-size: 80px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.artwork-title p{
+	font-size: 20px;
+	
+}
+
+
+
+
+
+/**************art portfolio display**************8*/
+
+
+#main-artwork{
+	
+	padding: 50px 250px;
+	max-width: 1500px;
+	position: relative;
+}
+
+#main-artwork h2{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+#main-artwork p{
+	text-align: center;
+}
+
+
+
+/***************arrow keys for navigation*****************/
+
+#main-artwork i{
+	position: absolute ;
+	background-color: white;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 20px;
+	transform: translateY(-50%);
+	transform: translateX(50%);
+}
+
+#top {
+	margin-top: 150px;
+	margin-left: -40px;
+	/*display: none;*/
+}
+
+
+#bottom {
+
+	margin-top: -175px;
+	margin-left: 63%;
+}
+
+
+
+
+/*******************for scrolling the artworks***************/
+
+.carousel{
+	
+	margin-top: 0px;
+	white-space: nowrap;
+	font-size: 0px;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.carousel img{
+	width: calc(100% / 3);
+	object-fit: cover;
+	margin-left: 14px;
+	justify-content: center;
+	padding: 0px 0px;
+	
+}
+
+
+/********************ABOUT PAGE******************/
+
+.about-box{
+	margin-top: 100px;
+	margin-left: 15%;
+}
+
+.about-box img{
+	width: 30%;
+}
+
+.about-box h1{
+	margin-left: 44%;
+	margin-top: 0px;
+	position: absolute;
+	color: white;
+	font-size: 40px;
+}
+
+.about-box p{
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 60px;
+	color: white;
+	margin-right: 180px;
+	line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

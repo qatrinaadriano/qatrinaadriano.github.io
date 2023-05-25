@@ -1,0 +1,1521 @@
+
+/************media screen sizes*******
+ * 
+ * 1235px, 1150px, 1050px, 900px, 800px, 690px, 600px, 450px, 320px******/
+
+
+
+
+
+
+/*******FIRST MEDIA SCREEN SIZE**********/
+
+@media screen and (max-width:1235px){
+
+
+/***********FEATURED PART************/
+
+	.featured-box{
+		width: 90%;
+		padding: 30px;
+	}
+
+
+
+	.featured-info img{
+		width: 100%;
+		height: 100%;
+
+	}
+
+	.featured-info:hover .featured-desc{
+	bottom: 30%;
+	}
+
+
+
+
+	/**************FOOTER***************/
+	.footer-info{
+	margin-left: 100px;
+	display: flex;
+	
+	}
+
+	.footer-info h2{
+		margin-right: 100px;
+		margin-left: 50px;
+	}
+
+	.footer-info ul{
+		margin-top: 20px;
+	}
+
+	.footer-info li{
+		margin-top: 20px;
+		margin-left: -190px;
+		list-style: none;
+	}
+
+
+
+/*************MATERIALS PAGE************/
+
+	.materials-box{
+		width: 50%;
+		margin-left: 25%;
+
+	}
+
+
+	#main-materials{
+		width: 100%;
+		height: 100%;
+	}
+
+	#main-materials h1{
+		margin-left: 100px;
+	}
+
+	#main-materials p{
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	#main-materials h2{
+		margin-left: 100px;
+		
+	}
+
+	#main-materials h2 p{
+		margin-right: 100px;
+		position: absolute;
+	}
+
+	#main-materials img{
+		width: 20%;
+		height: 20%;
+	}
+
+
+
+/*****************ARTWORK PAGE***************/
+	
+
+
+/*****left and right buttons*****/
+	#top{
+		margin-top: 90px;
+	}
+
+	#bottom{
+		margin-top: -150px;
+		margin-left: 56%;
+	}
+
+/****pictures of artwork****/
+
+.carousel img{
+	width: calc(100% / 3);
+	object-fit: cover;
+	margin-left: 14px;
+	justify-content: center;
+	padding: 0px 0px;
+	
+}
+
+/***********ABOUT PAGE***********/
+
+	.about-box p{
+		margin-right: 100px;
+	}
+
+
+
+
+
+
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******SECOND MEDIA SCREEN SIZE**********/
+
+@media screen and (max-width:1150px){
+
+
+
+
+
+	/**************FEATURED*****************/
+	.featured-box{
+		width: 90%;
+		padding: 20px;
+	}
+
+
+	.featured-info{
+	}
+
+
+	.featured-info img{
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+	.featured-desc p{
+	font-size: 10px;
+	}
+
+	.featured-info:hover .featured-desc{
+	bottom: 30%;
+	}
+
+
+
+	/***************FOOTER************/
+
+	.footer-info{
+	margin-left: 50px;
+	display: flex;
+	
+	}
+
+	.footer-info h2{
+		margin-right: 80px;
+		margin-left: 50px;
+	}
+
+	.footer-info ul{
+		margin-top: 20px;
+	}
+
+	.footer-info li{
+		margin-top: 20px;
+		margin-left: -190px;
+		list-style: none;
+	}
+
+
+
+
+
+	/******************MATERIALS PAGE*****************/
+
+	.materials-box{
+		width: 60%;
+		margin-left: 20%;
+
+	}
+
+
+	#main-materials h2 p{
+		margin-right: 100px;
+		margin-left: 32%;
+		position: absolute;
+	}
+
+
+	#main-materials img{
+		width: 30%;
+		height: 30%;
+	}
+
+
+/*****************ARTWORK PAGE*****************/
+
+
+
+/********left and right buttons**********/
+	#top{
+		margin-top: 130px;
+	}
+
+	#bottom{
+		margin-top: -180px;
+		margin-left: 53%;
+	}
+
+
+/****pictures of artwork****/
+	.carousel img{
+	width: calc(100% / 2);
+	object-fit: cover;
+	margin-left: 14px;
+	justify-content: center;
+	padding: 0px 0px;
+	
+}
+
+
+/*************ABOUT PAGE*************/
+
+	.about-box img{
+	width: 40%;
+}
+
+	.about-box p{
+		margin-left: 39%;
+		position: absolute;
+		margin-right: 50px;
+	}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*******THIRD MEDIA SCREEN SIZE**********/
+
+@media screen and (max-width:1050px){
+
+	/****background for website****/
+
+	#banner{
+   	width: 100%;
+   	height: 100%;
+   	padding-bottom: 80px;
+   }
+
+
+	/******************FEATURED***************/
+
+	.featured-box{
+		padding: 20px 10px;
+	}
+
+
+
+
+
+	/***************FOOTER**************/
+	.footer-info{
+	margin-left: 30px;
+	display: flex;
+	
+	}
+
+	.footer-info h2{
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+
+	.footer-info ul{
+		margin-top: 20px;
+	}
+
+	.footer-info li{
+		margin-top: 20px;
+		margin-left: -190px;
+		list-style: none;
+	}
+
+
+	.footer-logo{
+		margin-left: 50px;
+	}
+
+
+
+/*****************MATERIALS PAGE***************/
+
+	.materials-box{
+		width: 70%;
+		margin-left: 15%;
+
+	}
+
+	.trad{
+		margin-bottom: 10px;
+	}
+
+
+/*************ARTWORK PAGE**************/
+
+	#main-artwork{
+		width: 80%;
+		top: 20px;
+		margin-left: 100px;
+	}
+
+/********left and right buttons********/
+
+	#top{
+		margin-top: 140px;
+	}
+
+	#bottom{
+		margin-top: -185px;
+		margin-left: 35%;
+	}
+
+/****pictures of artwork****/
+
+	.carousel img{
+	width: calc(100% / 1);
+	object-fit: cover;
+	margin-left: 14px;
+	justify-content: center;
+	padding: 0px 0px;
+	
+}
+
+
+/*****************ABOUT PAGE*****************/
+
+	.about-box img{
+		width: 50%;
+		margin-left: -70px;
+	}
+
+	.about-box p{
+		margin-right: 50px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******FOURTH MEDIA SCREEN SIZE**********/
+@media screen and (max-width:900px){
+
+
+
+	/***********BURGER MENU ICON**************/
+	#menu-icon {
+		width: 100px;
+		height: 100px;
+		margin-left: 64%;
+		text-align: center;
+		
+   }
+
+   #menu-icon img{
+   		width: 30px;
+   		margin-top: 50px;
+   		
+   		display: block;
+   		position: fixed;
+   }
+
+   
+ /*********visible burger icon**********/
+   #menu1{
+   	right: 50px;
+   	top: -20px;
+   }
+
+  
+   .logo{
+   	margin-left: 50px;
+   }
+
+
+
+   /**************BACKGROUND*****************/
+   #banner{
+   	width: 100%;
+   	height: 100%;
+   	padding-bottom: 100px;
+   }
+
+
+   /*************NAVBAR****************/
+
+
+   		/****to hide the links when navbar not shown****/
+   #navLinks{
+   	right: -250px;
+   	transition: 0.5s;
+   }
+
+   		/****what navbar looks like when responsive****/
+
+   nav{
+   	background-color: gray;
+   	width: 220px;
+   	height: 105vh;
+   	margin-top: -40px;
+   	margin-right: 0px;
+   	position: fixed;
+   	right: 0;
+   	z-index: 2;
+   	opacity: 1;
+   }
+
+
+   nav ul{
+
+   	margin-top: 0px;
+   	margin-right: 0px;
+   	right: 0;
+   	display: flex;
+   	align-items: center;
+   	flex-direction: column ;
+   }
+
+   nav ul li{
+   	padding: 20px 0px;
+   	padding-right: 0px;
+   	margin-right: 0px;
+   }
+
+   nav ul li a{
+   	margin-left: -10px;
+   }
+
+   /***************DROPDOWN MENU***************8*/
+
+   .dropdown {
+	position: absolute;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	margin-left: 65%;
+	border-radius: 10px;
+	padding: 5px 10px;
+	line-height: 10px;
+	text-align: center;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+	opacity: 0;
+	pointer-events: none;
+	}
+
+	ul li:hover .dropdown{
+	display: flex;
+	margin-top: 10px;
+	margin-left: -10px;
+	opacity: 1;
+	pointer-events: all;
+	}	
+
+
+
+	/*******************HOMEPAGE*******************/
+
+	.banner-text{
+		margin: 0px 150px;
+	}
+
+	.banner-text h1{
+		font-size: 90px;
+	}
+
+	.banner-text p{
+		margin: 0px 80px;
+	}
+
+
+/********************FEATURED PART*********************/
+
+  	#featured{
+	width: 100%;
+	padding: 70px 0px;
+	background: #efefef;
+	}
+
+	.featured-box{
+	width: 70%;
+	display: block;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 50px;
+	background-color: lightgray;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.6);
+	}
+
+	.featured-info{
+	flex-basis: 25%;
+	text-align: center;
+	border-radius: 7px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	position: relative;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+	
+	}
+
+	.featured-info img{
+	width: 100%;
+	height: 100%;
+	border-radius: 7px;
+	}
+
+
+	.featured-desc h3{
+		font-size: 50px;
+	}
+
+	.featured-desc p{
+		font-size: 25px;
+	}
+
+	
+
+	/**********************FOOTER******************/
+
+	.footer-box{
+		padding: 50px;
+		display: flex;
+	}
+
+	.footer-info{
+	margin-left: -130px;
+	display: block;
+	margin-top: 200px;
+	}
+
+	.footer-info h2{
+		margin-top: 50px;
+		margin-right: 50px;
+		margin-left: 0px;
+		font-size: 40px;
+	}
+
+	.footer-info ul{
+		margin-top: 20px;
+		font-size: 20px;
+	}
+
+	.footer-info li{
+		margin-top: 20px;
+		margin-left: 40px;
+		list-style: none;
+	}
+
+	.footer-info i{
+		margin-right: 0px;
+		margin-left: -20px;
+		padding: 10px;
+	}
+
+
+
+	.footer-logo{
+		margin-left: 350px;
+		margin-top: 150px;
+		display: inline-block;
+		width: 90px;
+	}
+
+
+
+/**********************MATERIALS PAGE*************************/
+
+	.materials-box{
+	width: 40%;
+	display: block;
+	flex-wrap: wrap;
+	margin-left: 250px;
+	margin-top: 50px;
+
+	}
+
+	.materials-info{
+	text-align: center;
+	flex-basis: 20%;
+	border-radius: 7px;
+	margin-bottom: 100px;
+	position: relative;
+	margin: 0px 40px;
+	margin-top: 50px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+	background-color: blue;
+	
+	}
+
+	.trad{
+		margin-bottom: -10px;
+	}
+
+
+
+	#main-materials{
+		padding-bottom: 70px;
+		width: 100%;
+		height: 100%;
+	}
+
+	#main-materials h1{
+		font-size: 90px;
+		margin-left: 250px;
+	}
+
+	#main-materials p{
+		margin-left: 150px;
+		font-size: 17px;
+	}
+
+	#main-materials img{
+		width: 60%;
+		height: 60%;
+		margin-left: 80px;
+	}
+
+
+	#main-materials h2{
+		margin-top: 70px;
+		margin-left: 100px;
+		font-size: 40px;
+	}
+	
+
+	#main-materials h2 p{
+		font-size: 20px;
+		position: absolute;
+		margin-top: 65%;
+		margin-left: 50px;
+		height: 100%;
+	}
+
+
+	#main-materials hr{
+		top: 250px;
+		margin-bottom: 400px;
+		position: relative;
+	}
+
+	#main-materials .trad{
+		padding-top: 50px;
+		margin-left: 175px;
+	}
+
+
+
+
+
+
+/**********************ARTWORK PAGE*************************/
+
+
+
+
+	#main-artwork{
+		width: 95%;
+		top: 20px;
+		margin-left: 0px;
+	}
+
+	/*********left and right buttons***********/
+
+	#top {
+		margin-top: 150px;
+		margin-left: -40px;
+		position: absolute;
+	}
+
+
+	#bottom {
+
+		margin-top: -185px;
+		margin-left: 36%;
+	}
+
+
+	/************pictures of artwork*************/
+
+	.carousel img{
+		width: calc(100% / 1);
+	}
+
+
+
+
+
+	/*************************ABOUT PAGE************************/
+
+	.about-box img{
+		width: 60%;
+		margin-left: 55px;
+	}
+
+	.about-box h1{
+		color: black;
+		margin-left: 200px;
+		margin-top: 20px;
+	}
+
+	.about-box p{
+		color: black;
+		margin-left: 100px;
+		margin-right: 250px;
+		margin-top: 70px;
+	}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*******FIFTH MEDIA SCREEN SIZE**********/
+@media screen and (max-width:800px){
+
+	.materials-box{
+	width: 50%;
+	margin-left: 200px;
+}
+
+
+	#main-materials h1{
+		margin-left: 200px;
+	}
+
+
+	#main-materials .trad{
+		margin-left: 125px;
+	}
+
+
+
+
+/*ARTWORKS PAGE*/
+
+
+	#top {
+		margin-top: 160px;
+		margin-left: -80px;
+		position: absolute;
+	}
+
+
+	#bottom {
+
+		margin-top: -205px;
+		margin-left: 36%;
+	}
+
+
+
+	
+
+	.carousel{
+		width: 150%;
+		margin-left: -50px;
+	}
+
+	.carousel img{
+	width: calc(100% / 1);
+	
+	
+}
+
+
+
+
+
+	.about-box img{
+		width: 70%;
+	}
+
+	.about-box h1{
+		margin-left: 190px;
+	}
+
+	.about-box p{
+		margin-right: 180px;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*******SIXTH MEDIA SCREEN SIZE**********/
+
+@media screen and (max-width:690px){
+
+	/***************FOOTER****************/
+
+	.footer-info{
+	margin-left: -140px;
+	display: block;
+	margin-top: 200px;
+	}
+
+
+	.footer-logo{
+		margin-left: 300px;
+		margin-top: 150px;
+		display: inline-block;
+		width: 90px;
+	}
+
+
+
+	/******************MATERIALS PAGE****************/
+
+
+	.materials-box{
+	width: 60%;
+
+	margin-left: 140px;
+	margin-top: 50px;
+
+	}
+
+	.materials-desc{
+		font-size: 25px;
+	}
+
+
+	#main-materials h1{
+		margin-left: 150px;
+	}
+
+	#main-materials .trad{
+		margin-left: 100px;
+	}
+
+	#main-materials hr{
+		top: 350px;
+	}
+
+
+
+
+
+/********************ARTWORKS PAGE******************/
+
+	.carousel{
+		width: 250%;
+		margin-left: -90px;
+	}
+
+
+/*******left and right buttons**********/
+
+	#top {
+		margin-top: 160px;
+		margin-left: -120px;
+		position: absolute;
+	}
+
+
+	#bottom {
+
+		margin-top: -185px;
+		margin-left: 34%;
+	}
+
+
+/******************ABOUT PAGE*****************/
+
+	.about-box img{
+		width: 75%;
+		margin-left: 40px;
+	}
+
+	.about-box h1{
+		margin-left: 160px;
+	}
+
+
+	.about-box p{
+		line-height: 35px;
+		margin-right: 140px;
+		margin-left: 80px;
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*******SEVENTH MEDIA SCREEN SIZE**********/
+@media screen and (max-width:600px){
+
+
+/****************HOME PAGE**************/
+
+	.banner-text h1{
+		font-size: 80px;
+		margin-left: 0px;
+		margin-top: -40px;
+		align-content: center;
+	}
+
+	.banner-text p{
+		margin-left: -30px;
+		margin-right: -50px;
+		line-height: 20px;
+	}
+
+
+/****************MATERIALS PAGE***************/
+
+	#main-materials h1{
+		font-size: 80px;
+		margin-left: 100px;
+	}
+
+	#main-materials p{
+		margin-left: 120px;
+	}
+
+
+
+
+
+/******************ARTWORK PAGE*****************/
+	#main-artwork{
+		width: 105%;
+		margin-left: -30px;
+	}
+
+	.carousel{
+		width: 300%;
+		margin-left: -100px;
+		margin-right: -200px;
+
+	}
+
+	/**************left and right buttons**************/
+
+	#top{
+		margin-top: 150px;
+		margin-left: -130px;
+	}
+
+	#bottom{
+		margin-left: 190px;
+	}
+
+
+
+
+	/****************ABOUT PAGE***************/
+
+
+	.about-box img{
+		width: 85%;
+		margin-left: 0px;
+	}
+
+	.about-box h1{
+		margin-left: 110px;
+	}
+
+	.about-box p{
+		margin-left: 60px;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+/*******EIGHT MEDIA SCREEN SIZE**********/
+
+@media screen and (max-width:450px){
+
+	/*************HOME PAGE****************/
+
+	.banner-text h1{
+		font-size: 70px;
+		margin-left: -50px;
+		margin-right: -60px;
+	}
+
+
+	.banner-text p{
+		margin-left: -50px;
+		margin-top: 30px;
+	}
+
+
+	.banner-button{
+		margin-left: -150px;
+		margin-right: -150px;
+		margin-top: 55px;
+	}
+
+
+	/***********FEATURED PART*************/
+
+
+	.featured-desc h3{
+		font-size: 35px;
+	}
+
+	.featured-desc p{
+		font-size: 20px;
+	}
+
+
+	/**************FOOTER*************/
+
+
+
+	.footer-logo{
+		margin-left: 170px;
+		width: 20%;
+	}
+
+
+
+/****************MATERIALS PAGE*****************/
+
+
+	.materials-title h1{
+		font-size: 50px;
+	}
+
+	.materials-title p{
+		font-size: 15px;
+	}
+
+
+	.materials-box{
+		margin-left: 100px;
+	}
+
+	.materials-desc{
+		font-size: 20px;
+	}
+
+
+
+	#main-materials h1{
+		font-size: 60px;
+		margin-left: 70px;
+	}
+
+	#main-materials p{
+		margin-left: 80px;
+		margin-right: 50px;
+	}
+
+	#main-materials .trad{
+		margin-left: 70px;
+	}
+
+
+	#main-materials h2{
+		margin-left: 130px;
+	}
+
+	#main-materials h2 p{
+		margin-left: -50px;
+		margin-right: 50px;
+	}
+
+	#main-materials img{
+		width: 70%;
+		margin-left: -10px;
+	}
+
+
+
+
+/**************ARTWORK PAGE***************/
+
+	.artwork-title h1{
+		font-size: 50px;
+	}
+
+
+	.artwork-title p{
+		font-size: 15px;
+	}
+
+
+	#main-artwork{
+		width: 100%;
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+
+	/***********pictures of artwork**********/
+
+	.carousel{
+		width: 150%;
+		margin-left: -150px;
+	}
+
+	.carousel img{
+	width: calc(100% / 1);
+	object-fit: cover;
+
+	}
+
+	/***********left and right buttons************/
+
+	#top{
+		margin-left: -190px;
+		margin-top: 120px;
+	}
+
+	#bottom{
+		margin-left: 110px;
+		margin-top: -185px;
+	}
+
+
+
+
+
+	/******************ABOUT PAGE******************/
+
+
+	.about-box img{
+		width: 100%;
+		margin-left: -35px;
+	}
+
+
+
+	.about-box h1{
+		font-size: 30px;
+		margin-left: 75px;
+	}
+
+	.about-box p{
+		font-size: 15px;
+		margin-left: 0px;
+		margin-right: 50px;
+	}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******NINTH MEDIA SCREEN SIZE**********/
+
+@media screen and (max-width:320px){
+
+	.logo{
+		margin-left: 20px;
+	}
+
+	/***************HOME PAGE***************/
+
+
+	#banner{
+		width: 100%;
+		height: 100%;
+	}
+
+	.banner-text h1{
+		font-size: 60px;
+		margin-left: -100px;
+		margin-right: -100px;
+		margin-top: -40px;
+		align-content: center;
+	}
+
+	.banner-text p{
+		margin-left: -100px;
+		margin-right: -100px;
+		margin-top: 30px;
+		line-height: 25px;
+		font-size: 12px;
+	}
+
+	.banner-button{
+		margin-left: -110px;
+		margin-right: -100px;
+		margin-top: 55px;
+	}
+
+	.banner-button a{
+		font-size: 12px;
+	}
+
+
+	/*****************FEATURED PART***************/
+
+
+	.featured-desc h3{
+		font-size: 15px;
+	}
+
+	.featured-desc p{
+		font-size: 10px;
+	}
+
+
+
+	/**********FOOTER********/
+	
+	.footer-logo{
+		margin-left: 120px;
+		width: 20%;
+	}
+
+
+
+	/************************MATERIALS PAGE************************/
+
+	.materials-title h1{
+		font-size: 40px;
+	}
+
+	.materials-title p{
+		font-size: 10px;
+	}
+
+
+	.materials-box{
+		width: 70%;
+		margin-left: 50px;
+		padding-bottom: 0px;
+	}
+
+	.materials-desc{
+		font-size: 15px;
+	}
+
+
+	#main-materials h1{
+		font-size: 50px;
+		margin-left: 50px;
+	}
+
+	#main-materials p{
+		margin-left: 50px;
+		margin-right: 50px;
+		font-size: 12px;
+	}
+
+	#main-materials h2{
+		margin-left: 70px;
+		font-size: 35px;
+	}
+
+
+	#main-materials h2 p{
+		margin-left: -20px;
+		margin-right: 50px;
+		margin-top: 80%;
+		font-size: 15px;
+	}
+
+	#main-materials img{
+		width: 70%;
+		margin-left: 0px;
+	}
+
+	#main-materials .trad{
+		margin-left: 40px;
+		margin-right: 50px;
+	}
+
+
+
+
+
+/************************ARTWORK PAGE**********************/
+
+	.artwork-title h1{
+		font-size: 40px;
+	}
+
+
+	.artwork-title p{
+		font-size: 10px;
+	}
+
+
+
+	#main-artwork{
+		margin-right: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+
+	/*****picture of artworks*****/
+
+
+	.carousel{
+		width: 350%;
+		margin-left: -190px;
+		margin-right: -200px;
+
+
+	}
+
+	.carousel img{
+		width: calc(100% / 1);
+		object-fit: cover;
+
+	}
+
+
+	/****design of the buttons****/
+
+	#main-artwork i{
+		height: 35px;
+		width: 35px;
+		font-size: 15px;
+		line-height: 37px;
+	}
+
+
+	/*****************left and right buttons***************/
+
+
+	#top {
+		margin-top: 110px;
+		margin-left: -210px;
+		position: absolute;
+		width: 20px;
+	}
+
+
+	#bottom {
+
+		margin-top: -135px;
+		margin-left: 6%;
+	}
+
+
+
+
+/********************ABOUT PAGE*********************/
+	.about-box img{
+		width: 100%;
+		margin-left: -20px;
+	}
+
+	.about-box h1{
+		font-size: 25px;
+		margin-left: 40px;
+		margin-top: 10px;
+	}
+
+	.about-box p{
+		font-size: 12px;
+		margin-left: 10px;
+		margin-right: 50px;
+		margin-top: 40px;
+		line-height: 20px;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Art Journey</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="responsive.css">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!----------Background----------->
+	<section id="banner">
+
+		<!-------------------------navbar(logo and nav links)------------------------->
+		<div class="navbar">
+			<!----logo----->
+			<a href="index.html"><img src ="images/logo3.png" class= "logo"></a>
+
+
+
+			<!---------------------------navigation links (home, featured, about)------------------------------>
+			<nav id="navLinks">
+
+				<!-----menu burger icon------>
+				<div id="menu-icon" onclick="hideMenu()"><img src="images/menu button.jpg" id="menu"></div>
+				<ul>
+					<li><a class="active" href="index.html">HOME</a></li>
+					<li><a href="#featured">FEATURED</a>
+						
+						<!--------------dropdown menu------------------->
+							<ul><div class="dropdown">
+								<li><a href="materials.html">MATERIALS</a></li>
+								<li><a href="artwork.html">ARTWORK</a></li>
+							</div>
+							</ul>
+					</li>	
+						
+					<li><a href="about.html">ABOUT</a></li>
+
+				</ul>
+				
+				
+			</nav>
+			<!-----menu burger icon------>
+				<div id="menu-icon" onclick="showMenu()"><img src="images/menu button.jpg" id="menu1"></div>
+
+		</div>
+
+
+
+		
+		<!----------------------------welcome message on landing page-------------------------------------->
+		<div class="banner-text">
+			<h1>My Art Journey</h1>
+			<p>Learning to draw isn't always easy and can be overwhelming, <br>but you can start your own journey with this website to guide you </p>
+				<div class="banner-button">
+
+					<a href="#featured">Get Started</a>
+				</div>
+
+		</div>
+
+
+		<!--------------back to top button-------------->
+		<a class="gotop" href="#"><i class="fas fa-arrow-up"></i></a>
+
+	</section>
+
+
+<!---------------------------------Featured part----------------------------->
+	<section id="featured">
+		<!--title ng section-->
+		<div class="title-text">
+			<h1>FEATURED</h1>
+
+		</div>
+		
+		<!----------------3 photos under featured----------------->
+		<div class="featured-box">
+
+			<!--1st image, toy story-->
+			<div class="featured-info">
+				<img src="images/toystory.jpg">
+				<a href="about.html"><div class="overlay"></div></a>
+				<a href="about.html"><div class="featured-desc">
+					<h3>ABOUT</h3>
+					<hr>
+					<p>Know more about the website</p>
+				</div></a>
+			</div>
+
+					
+			<!--2nd image, colored pencil-->		
+			<div class="featured-info">
+				<img src="images/prismacolor.jpg">
+				<a href="materials.html"><div class="overlay"></div></a>
+				<a href="materials.html"><div class="featured-desc">
+					<h3>MATERIALS</h3>
+					<hr>
+					<p>What I use</p>
+				</div></a>
+			</div>
+
+
+			<!--3rd image, anime artwork-->
+			<div class="featured-info">
+				<img src="images/markerart3.jpg">
+				<a href="artwork.html"><div class="overlay"></div></a>
+				<a href="artwork.html"><div class="featured-desc">
+					<h3>ARTWORKS</h3>
+					<hr>
+					<p>Collection of Artworks</p>
+				</div></a>
+			</div>
+					
+		</div>
+
+
+
+	</section>
+
+
+
+	<!------------------------------footer of website------------------------------>
+	<section id="footer">
+		
+		<a href="index.html"><img src ="images/logo3.png" class= "footer-logo"></a>
+
+		<div class="footer-box">
+			<div class="footer-info">
+			
+			<!--lists in footer-->
+			<h2><a href="materials.html"> Materials</a></h2>
+				<ul>
+					<li><a href="materials.html#digiart"> Digital Art</a></li>
+					<li><a href="materials.html#trad1">Traditional</a></li>
+					
+
+
+				</ul>
+			<h2><a href="artwork.html"> Artworks</a></h2>
+			<h2><a href="about.html">About</a></h2>
+				
+			
+			<h2>Socials</h2>
+				<ul>
+					<!--lists of links to social media sites-->
+					<li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+					<li><a href="https://twitter.com/home?lang=en"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+					<li><a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+					
+
+
+				</ul>
+			
+			</div>
+		</div>
+
+
+
+
+	</section>
+
+
+
+
+
+<!------------------------JAVASCRIPT FOR RESPONSIVE NAVBAR (hide and show navbar)------------------------>
+
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-250px";
+	}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
